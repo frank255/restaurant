@@ -1,18 +1,52 @@
-<ul class="nav justify-content-center">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li>
-</ul>
-
-<router-outlet>
-
-</router-outlet>
+<!--navigation bar-->
+<mat-toolbar color="primary" class="nav-bar">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon color="accent">fastfood</mat-icon>
+  </button>
+    <span>Shishi food</span>
+    <span class="nav-items">
+      <button mat-button>Our Menu</button>
+      <button mat-button>Services</button>
+      <button mat-button>Contact us</button>
+    </span>
+    <span class="example-spacer"></span>
+    <span>
+      <button mat-raised-button color="accent" class="login-btn">Login</button>
+      <button mat-raised-button color="accent">Join us</button>
+    </span>
+</mat-toolbar>
+<!--header-->
+<section class="home" id="home">
+    <div class="image">
+        <img src="assets/home-img.png" alt="">
+    </div>
+    <div class="content">
+        <span><h1>Welcome To Shishi Food Restaurant.</h1> </span>
+        <button mat-raised-button class="btn" color="primary">Get Started</button>
+    </div>
+</section>
+<!--footer section-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <mat-icon color="accent">fastfood</mat-icon>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non qui ipsum error suscipit. Illo, quam saepe? Expedita est necessitatibus minima laboriosam quisquam ipsa omnis, officia quidem maxime distinctio officiis? Magni!</P>
+        </div>
+        <div class="share">
+            <a href="" class="btn fab fa-facebook-f"></a>
+            <a href="" class="btn fab fa-instagram"></a>
+            <a href="" class="btn fab fa-whatsapp"></a>
+        </div>
+        <div class="box">
+            <h3>Our Branches</h3>
+            <a href="">Dar-Es-Salaam</a>
+            <a href="">Dodoma</a>
+        </div>
+        <div class="box">
+            <h3>Download App</h3>
+            <a href="">Playstore</a>
+            <a href="">Appstore</a>
+        </div>
+    </div>
+    <h1 class="credit">created by <span>ilunga</span>&copy;</h1>
+</section>

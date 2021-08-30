@@ -1,2 +1,78 @@
+/*body styles*/
 
 
+/*nav styles*/
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.nav-items {
+    margin-left: 400px;
+}
+
+.login-btn {
+    margin-right: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+}
+
+
+/*header styles*/
+
+section {
+    padding: 2rem 9%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home.image {
+    flex: 1 1 40rem;
+    padding-top: 5rem;
+}
+
+.home.image.img {
+    width: 100%;
+}
+
+.home.content {
+    flex: 1 1 40rem;
+}
+
+.btn {
+    width: 200px;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+
+/*footer styles*/
+
+.footer.box-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer.box-container.box {
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+}
+
+.footer.box-container.box.share {
+    padding: 0;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
