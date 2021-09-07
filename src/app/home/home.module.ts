@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { SharedModule } from '../shared/shared.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
@@ -18,6 +19,7 @@ import { HomeComponent } from './home.component';
     MatIconModule,
     MatButtonModule,
     MatTabsModule,
+    SharedModule
   ]
 })
 export class HomeModule { }
